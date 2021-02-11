@@ -1,0 +1,35 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- cookies.html -->
+<!-- Gathering data to be written as a cookie. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <title>Writing a cookie to the client computer</title>
+    <style type = "text/css">
+        body
+        { font-family: arial, sans-serif;
+            background-color: #99CCFF }
+        form
+        { font-size: 10pt }
+        .submit { background-color: #F0E86C;
+            color: navy;
+            font-weight: bold }
+    </style>
+</head>
+<body>
+<h2>Click Write Cookie to save your cookie data.</h2>
+<form method = "post" action = "cookies.php">
+    <div>
+        <strong>Name:</strong><br />
+        <input type = "text" name = "Name" /> <br />
+        <strong>Height:</strong><br />
+        <input type = "text" name = "Height" /> <br />
+        <strong>Favorite Color:</strong><br />
+        <input type = "text" name = "Color" /> <br />
+        <input type = "submit" value = "Write Cookie"
+               class = "submit" />
+    </div>
+</form>
+</body>
+</html>
